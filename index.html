@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="file/all.min.css">
+    <link rel="stylesheet" href="file/normalize.css">
+    <link rel="stylesheet" href="file/bootstrap.css">
+    <link rel="stylesheet" href="file/index.css">
+</head>
+
+<body>
+    <header class = "fixed-top bg-light shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-transparent-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bold text-dark" href="#" style="font-family: var(--logo-font);letter-spacing: 3px;"></a>
+                    <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="" style="gap: 3px;">
+                        <ul class="navbar-nav me-auto flex-grow-1 flex-row-reverse d-sm-none d-lg-flex">
+                            <li class="nav-item text-right">
+                                <a class="nav-link active" href="#">الرئيسيه</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">المنتجات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">العروض</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">التصنيفات</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="بحث . . ." dir="rtl" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">بحث</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <aside>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title fw-bold w-100 text-md-center sidebar-title" id="offcanvasExampleLabel" style="font-family: var(--logo-font);letter-spacing: 3px;">SAWERMA</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="nav text-dark bg-transparent-tertiary flex-column text-end">
+                    <li class="nav-item text-right">
+                        <a class="nav-link active text-dark" href="#">الرئيسيه</a>
+                    </li>
+                    <li class="nav-item text-right">
+                        <a class="nav-link text-dark" href="#">المنتجات</a>
+                    </li>
+                    <li class="nav-item text-right">
+                        <a class="nav-link text-dark" href="#">العروض</a>
+                    </li>
+                    <li class="nav-item text-right">
+                        <a class="nav-link text-dark" href="#">التصنيفات</a>
+                    </li>
+                </ul>
+                <form class="d-flex p-3 p-lg-0" role="search">
+                    <input class="form-control me-2" type="search" placeholder="بحث . . ." dir="rtl" aria-label="Search">
+                    <button class="btn btn-outline-success" type="button">بحث</button>
+                </form>
+            </div>
+        </div>
+    </aside>
+
+    <article>
+        <section class="" style="min-height:100vh; position: relative;">
+            <div class="container" style="min-height:100vh ;position: relative;">
+                <div class = "text-center text-light jumbtron p-3">
+                    <h1 class="mb-3">Sawerma</h1>
+                    <p class = "" dir="rtl">استمتع بأشهى الأطباق والمشروبات في   حيث تلتقي النكهات الرائعة مع الخدمة المميزة. اطلب الآن واستمتع بتجربة طعام لا تُنسى!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-4 bg-white pb-4">
+            <div class="container">
+                <div class="row flex-row-reverse bg-light rounded pt-3 pb-3">
+                    <div class="col-3 text-center">
+                        <div class="logo text-center pt-5 pb-5">
+                            <i class="fa-regular fa-lightbulb text-success"></i>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div dir="rtl" class="pt-4">
+                            <h2 class="mb-2">اكتشف  في <span class = "brand">A</span></h2>
+                            <p class="mb-2"> مجموعة متنوعة من الأطعمة والمشروبات اللذيذة  .   واستمتع بتجربة طعام فريدة من نوعها!</p>
+                            <a href="#" class = "btn btn-success btn-sm mb-2">أكتشف</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="gallary pt-3 pb-2">
+                <h2 class="text-center text-white">العروض</h2>
+            </div>
+            <div class="container pb-2 px-5">
+                <div class="responsive">
+                    <div class=" text-center me-2 p-2 rounded" style="background-color: #ffffff54;" class="mx-auto">
+                        <img src="file/img/menuImg1.png" alt="" width="120" class="mx-auto">
+                    </div>
+                    <div class=" text-center me-2 p-2 rounded" style="background-color: #ffffff45;">
+                        <img src="file/img/menuImg2.png" alt="" width="120" class="mx-auto">
+                    </div>
+                    <div class=" text-center me-2 p-2 rounded" style="background-color: #ffffff45;">
+                        <img src="file/img/menuImg3.png" alt="" width="120" class="mx-auto">
+                    </div>
+                    <div class=" text-center me-2 p-2 rounded" style="background-color: #ffffff45;">
+                        <img src="file/img/img1.png" alt="" width="120" class="mx-auto">
+                    </div>
+                    <div class=" text-center me-2 p-2 rounded" style="background-color: #ffffff45;">
+                        <img src="file/img/img2.png" alt="" width="120" class="mx-auto">
+                    </div>
+                    <div class=" text-center me-2 p-2 rounded" style="background-color: #ffffff45;">
+                        <img src="file/img/menuImg3.png" alt="" width="120" class="mx-auto">
+                    </div>
+                    <div class=" text-center me-2 p-2 rounded" style="background-color: #ffffff45;">
+                        <img src="file/img/menuImg4.png" alt="" width="120" class="mx-auto">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white p-5">
+            <div class="gallary pt-0 pb-3">
+                <h2 class="text-center text-dark">منتجاتي</h2>
+            </div>
+            <div class="container">
+                <ul class="nav nav-tabs d-flex justify-content-center border-0">
+                    <li class="nav-item small">
+                        <a class="nav-link border-0 font-weight-bold head_title active " data-bs-toggle="tab" href="#home">أطعمه</a>
+                    </li>
+                    <li class="nav-item small">
+                        <a class="nav-link border-0 font-weight-bold head_title" data-bs-toggle="tab" href="#menu1">مشروبات</a>
+                    </li>
+                    <li class="nav-item small">
+                        <a class="nav-link border-0 font-weight-bold head_title" data-bs-toggle="tab" href="#menu2">حلويات</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content mt-2">
+                    <div class="tab-pane container active" id="home">
+                        <div class="card_product d-flex flex-wrap justify-content-around align-content-around">
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/beef Steak.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/beef Steak.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/beef Steak.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/beef Steak.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/beef Steak.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/beef Steak.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/beef Steak.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/beef Steak.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container fade" id="menu1">
+                        <div class="card_product d-flex flex-wrap justify-content-around align-content-around">
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/drinks_1.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/drinks_1.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/drinks_1.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/drinks_1.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/drinks_1.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/drinks_1.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/drinks_1.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/drinks_1.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container fade" id="menu2">
+                        <div class="card_product d-flex flex-wrap justify-content-around align-content-around">
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/cake_1.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/cake_2.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/cake_3.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/cake_4.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/cake_5.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/cake_6.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/cake_7.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 250px;">
+                                <img src="file/img/cake_8.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="card-text mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h4 class="card-title" style="font-size: 18px;">Beef Roast</h4>
+                                                <span class="badge bg-success">500 L.E</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-success btn-sm d-block">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+
+</body>
+<script type="text/javascript" src="slick/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="slick/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="slick/slickMode.js"></script>
+<script src="file/bootstrap.bundle.min.js"></script>
+<script src="file/index.js"></script>
+
+</html>
