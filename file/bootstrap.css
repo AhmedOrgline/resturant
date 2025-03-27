@@ -7698,6 +7698,12 @@ textarea.form-control-lg {
   min-width: 100vw !important;
 }
 
+@media (min-width: 991.98px){
+  .w-md-75{
+    width: 75% !important;
+  }
+}
+
 .h-25 {
   height: 25% !important;
 }
@@ -12057,3 +12063,30 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+.cursor-pointer{
+  cursor: pointer;
+}
+.color-transperancy{
+  color: #ffffff67 !important;
+  border-color: #ffffff67 !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  &:hover{
+    color: #fff !important;
+    border-color: #fff !important;
+  }
+}
+.text-transperancy{
+  color: #ffffff67 !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  &:hover{
+    color: #fff !important;
+  }
+}
