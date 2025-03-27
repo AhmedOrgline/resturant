@@ -67,3 +67,21 @@ section{
 .card_product .card{
     max-width: var(--width_card) !important;
 }
+
+.h{
+    position: relative;
+    &::before{
+        content: "";
+        width: 50%;
+        height: 3px;
+        background-color: rgb(25 135 84);
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+}
+}
